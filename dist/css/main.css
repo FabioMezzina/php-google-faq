@@ -6,4 +6,26 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #3c4043;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 32px;
+  max-width: 978px;
+}
+
+h2 {
+  margin: 64px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+p {
+  margin: 30px 0;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.9);
 }

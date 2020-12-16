@@ -1,3 +1,4 @@
+// Reset
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +7,27 @@
 
 body {
   font-family: $main-font;
+  font-size: $main-font-size;
+  color: $main-color;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 32px;
+  max-width: 978px;
+}
+
+// TYPOGRAPHY
+h2 {
+  margin: 64px 0 0;
+  font-size: $questions-font-size;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+p {
+  margin: 30px 0;
+  letter-spacing: .2px;
+  line-height: 24px;
+  color: $secondary-color;
 }
