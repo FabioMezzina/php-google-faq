@@ -32,6 +32,8 @@ $faqs = [
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google FAQ</title>
+  <!-- Fontawesome -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'/>
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
@@ -41,7 +43,20 @@ $faqs = [
 <body>
 <!-- HEADER -->
   <header class="site-header">
-    <nav class="top-nav"></nav>
+    <nav class="top-nav">
+      <div class="logo">
+        <span>
+          <a href="#">
+            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google">
+          </a>
+        </span>
+        <a href="#">Privacy e termini</a>
+      </div>
+      <div class="user-section">
+        <span class="user-menu"><i class="fas fa-th"></i></span>
+        <span class="user-alias">F</span>
+      </div>
+    </nav>
     <nav class="bottom-nav"></nav>
   </header>
 

@@ -29,3 +29,65 @@ p {
   line-height: 24px;
   color: rgba(0, 0, 0, 0.9);
 }
+
+a {
+  text-decoration: none;
+}
+
+.site-header {
+  height: 100px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 16px;
+  height: 48px;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+.logo a {
+  color: #5f6368;
+  font-size: 22px;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.user-menu {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.user-menu:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.user-alias {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 2px;
+  color: #fff;
+  background-color: #ff7300;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.user-alias:hover {
+  color: #5f6368;
+}
