@@ -57,7 +57,25 @@ $faqs = [
         <span class="user-alias">F</span>
       </div>
     </nav>
-    <nav class="bottom-nav"></nav>
+    <nav class="bottom-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#">Introduzione</a>
+        </li>
+        <li>
+          <a href="#">Norme sulla privacy</a>
+        </li>
+        <li>
+          <a href="#">Termini di servizio</a>
+        </li>
+        <li>
+          <a href="#">Tecnologie</a>
+        </li>
+        <li>
+          <a href="#">Domande frequenti</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
 <!-- MAIN SECTION -->

@@ -6,6 +6,7 @@
 }
 
 body {
+  position: relative;
   font-family: $main-font;
   font-size: $main-font-size;
   color: $main-color;
@@ -34,4 +35,9 @@ p {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
 }

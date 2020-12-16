@@ -5,6 +5,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #3c4043;
@@ -34,8 +35,18 @@ a {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+}
+
 .site-header {
-  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .top-nav {
@@ -65,8 +76,8 @@ a {
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   cursor: pointer;
   transition: 0.2s;
@@ -79,8 +90,8 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   padding: 2px;
   color: #fff;
   background-color: #ff7300;
@@ -90,4 +101,28 @@ a {
 }
 .user-alias:hover {
   color: #5f6368;
+}
+
+.nav-list {
+  padding: 0 16px;
+}
+.nav-list li {
+  font-size: 15px;
+  font-weight: 500;
+  height: 35px;
+  margin-right: 50px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.nav-list li:hover, .nav-list lifocus {
+  color: #3367d6;
+  border-bottom: 2px solid #3367d6;
+}
+.nav-list a {
+  color: inherit;
+}
+
+.site-main {
+  padding-top: 80px;
 }

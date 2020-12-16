@@ -1,5 +1,10 @@
 .site-header {
-  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0, .2);
 }
 // TOP NAVIGATION SECTION
 .top-nav {
@@ -31,8 +36,8 @@
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   cursor: pointer;
   transition: .2s;
@@ -45,8 +50,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   padding: 2px;
   color: #fff;
   background-color: rgb(255, 115, 0);
@@ -59,3 +64,23 @@
 }
 
 // BOTTOM NAV SECTION
+.nav-list {
+  padding: 0 16px;
+  li {
+    font-size: $secondary-font-size;
+    font-weight: 500;
+    height: 35px;
+    margin-right: 50px;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    transition: .2s;
+    &:hover,
+    &focus{
+      color: $cta-hover-color;
+      border-bottom: 2px solid $cta-hover-color;
+    }
+  }
+  a {
+    color: inherit;
+  }
+}
