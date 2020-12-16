@@ -47,10 +47,12 @@ $faqs = [
 <main class="site-main">
   <div class="container">
     <!-- FAQ basic structure -->
+    <?php foreach($faqs as $faq) { ?>
     <div class="faq">
-      <h2 class="question"></h2>
-      <p class="answer"></p>
+      <h2 class="question"><?php echo $faq['question'] ?></h2>
+      <p class="answer"><?php echo $faq['answer'] ?></p>
     </div>
+    <?php } ?>
   </div>
 </main>
 
